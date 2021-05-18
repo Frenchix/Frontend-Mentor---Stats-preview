@@ -1,0 +1,66 @@
+:root {
+    --color-background-dark-blue: hsl(233, 47%, 7%);
+    --color-card-background-dark-blue: hsl(244, 38%, 16%);
+    --color-violet-img:  rgb(170, 92, 219);
+    --color-white: hsl(0, 0%, 100%);
+    --color-white-transparent: hsla(0, 0%, 100%, 0.75);
+    --color-white-transparent-stat: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    color: var(--color-white);
+    background-color: var(--color-background-dark-blue);
+}
+#container {
+    position: absolute;
+    top:20%;
+    left: 10%;
+    width: 80%;
+    height: 60vh;
+    display: flex;
+}
+#gauche {
+    width: 50%;
+    background-color: var(--color-card-background-dark-blue);
+    padding: 4rem 5rem 4rem 3rem;
+    line-height: 1.5rem;
+}
+#droite {
+    width: 50%;
+    background:linear-gradient( rgba(170, 92, 219, 0.7) 0%, rgba(170, 92, 219, 0.5)0%),url("../images/image-header-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+.violet {
+    color: var(--color-violet-img);
+}
+.paragraphe {
+    font-size: 1.1rem;
+    padding-right: 5rem;
+    color: var(--color-white-transparent);
+    margin-bottom: 4rem;
+}
+.index_chiffre_cle {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size:0.9rem;
+    text-transform: uppercase;
+    color: var(--color-white-transparent-stat);
+}
+.chiffre_cle {
+    padding-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.chiffre_cle p{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
